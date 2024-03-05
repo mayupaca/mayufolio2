@@ -6,18 +6,18 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div className="pt-20">
-        <Home />
-        <Skill />
-        <Project />
-        <About />
-      </div>
-    </>
+      <Home />
+      <Skill />
+      <Project />
+      <About />
+      <Footer />
+    </div>
   );
 }
 
