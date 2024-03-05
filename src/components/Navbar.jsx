@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <header className="text-gray-700 border-b border-gray-200 fixed top-0 left-0 w-full z-50 bg-white shadow">
       <div className="container flex mx-auto p-5 flex-col md:flex-row items-center">
@@ -11,14 +11,14 @@ const Navbar = () => {
           <a href="#home" className="mr-5 hover:text-blue-400 duration-300">
             HOME
           </a>
-          <a href="#about" className="mr-5 hover:text-blue-400 duration-300">
-            ABOUT
-          </a>
           <a href="#skills" className="mr-5 hover:text-blue-400 duration-300">
             SKILLS
           </a>
-          <a href="#projects" className="hover:text-blue-400 duration-300">
+          <a href="#projects" className="mr-5 hover:text-blue-400 duration-300">
             PROJECTS
+          </a>
+          <a href="#about" className="hover:text-blue-400 duration-300">
+            ABOUT
           </a>
         </nav>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+function Home() {
   return (
     <section id="home" className="text-gray-700">
       <div className="container flex mx-auto py-20 px-5 flex-col md:flex-row items-center">
