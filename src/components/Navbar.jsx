@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll"
 
 function Navbar() {
   return (
@@ -8,18 +9,18 @@ function Navbar() {
           <span className="text-xl ml-3">mayufolio</span>
         </a>
         <nav className="md:ml-auto text-base">
-          <a href="#home" className="mr-5 hover:text-blue-400 duration-300">
+          <Link to="home" smooth={true} duration={500} className="mr-5 hover:text-blue-400 duration-300">
             HOME
-          </a>
-          <a href="#skills" className="mr-5 hover:text-blue-400 duration-300">
+          </Link>
+          <Link to="skill" smooth={true} duration={500} className="mr-5 hover:text-blue-400 duration-300">
             SKILLS
-          </a>
-          <a href="#projects" className="mr-5 hover:text-blue-400 duration-300">
+          </Link>
+          <Link to="project" smooth={true} duration={500} className="mr-5 hover:text-blue-400 duration-300">
             PROJECTS
-          </a>
-          <a href="#about" className="hover:text-blue-400 duration-300">
+          </Link>
+          <Link to="about" smooth={true} duration={500} className="hover:text-blue-400 duration-300">
             ABOUT
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

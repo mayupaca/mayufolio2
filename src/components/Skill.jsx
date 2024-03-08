@@ -2,7 +2,7 @@ import React from "react";
 
 function Skill() {
   return (
-    <section id="skills" className="text-gray-700 border-t border-gray-200">
+    <section id="skill" className="text-gray-700 border-t border-gray-200">
       <div className="flex container px-5 py-24 mx-auto flex-wrap">
         {/* <div className="mb-10 lg:mb-0 w-full lg:w-1/2 flex justify-center">
           <img src="./img/takachiho.jpg" alt="" className="rounded" />
