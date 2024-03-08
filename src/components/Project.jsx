@@ -11,7 +11,7 @@ function Project() {
           <div className="md:w-1/3 p-4">
             <div className="bg-gray-200 rounded-lg p-8">
               <div className="flex items-center mb-3">
-                <div className="bg-green-500 text-white rounded-full">
+                <div className="bg-[#AF9221] text-white rounded-full">
                   <svg
                     width="24"
                     height="24"
@@ -35,7 +35,7 @@ function Project() {
                   iusto optio cumque debitis quia nam amet omnis quisquam
                   placeat commodi.
                 </p>
-                <a href="#" className="flex mt-3 text-green-500 items-center">
+                <a href="#" className="flex mt-3 text-custom-gold items-center">
                   MORE
                   <svg
                     width="24"
@@ -56,7 +56,7 @@ function Project() {
           <div className="md:w-1/3 p-4">
             <div className="bg-gray-200 rounded-lg p-8">
               <div className="flex items-center mb-3">
-                <div className="bg-green-500 text-white rounded-full">
+                <div className="bg-[#AF9221] text-white rounded-full">
                   <svg
                     width="24"
                     height="24"
@@ -80,7 +80,7 @@ function Project() {
                   iusto optio cumque debitis quia nam amet omnis quisquam
                   placeat commodi.
                 </p>
-                <a href="#" className="flex mt-3 text-green-500 items-center">
+                <a href="#" className="flex mt-3 text-custom-gold items-center">
                   MORE
                   <svg
                     width="24"
@@ -101,7 +101,7 @@ function Project() {
           <div className="md:w-1/3 p-4">
             <div className="bg-gray-200 rounded-lg p-8">
               <div className="flex items-center mb-3">
-                <div className="bg-green-500 text-white rounded-full">
+                <div className="bg-[#AF9221] text-white rounded-full">
                   <svg
                     width="24"
                     height="24"
@@ -125,7 +125,7 @@ function Project() {
                   iusto optio cumque debitis quia nam amet omnis quisquam
                   placeat commodi.
                 </p>
-                <a href="#" className="flex mt-3 text-green-500 items-center">
+                <a href="#" className="flex mt-3 text-custom-gold items-center">
                   MORE
                   <svg
                     width="24"

@@ -10,14 +10,14 @@ function Home() {
             <br />
             I am Mayu Suzumura
             <br />
-            Web Developer
+            {/* Web Developer */}
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellat rerum quisquam vel aperiam! Reiciendis libero itaque
-            natus eum aliquam beatae!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+            rerum quisquam vel aperiam! Reiciendis libero itaque natus eum
+            aliquam beatae!
           </p>
-          <button className="text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300">
+          <button className="text-white bg-[#AF9221] py-2 px-6 border-0 rounded text-lg hover:opacity-70 duration-300">
             Contact
           </button>
         </div>
@@ -27,6 +27,6 @@ function Home() {
       </div>
     </section>
   );
-};
+}
 
 export default Home;
