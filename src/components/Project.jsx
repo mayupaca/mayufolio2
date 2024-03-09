@@ -10,28 +10,33 @@ function Project() {
         </h1>
         <div className="flex flex-wrap">
           <div className="md:w-1/3 p-4">
-            <div className="border-4 border-custom-gold rounded-lg p-8">
-              <div className="flex items-center mb-3">
-                <div className="bg-[#AF9221] text-white rounded-full flex justify-center items-center w-8 h-8">
-                  <PiggyBankIcon />
-                </div>
-                <h2 className="text-gray-900 text-lg font-medium ml-2">
-                  Tiny Cash Book
-                </h2>
+            <div className="border-4 border-custom-gold rounded-lg p-3">
+              <div className="w-full">
+                <img src="./img/demoVideogif.gif" alt=""/>
               </div>
-              <div>
-                <p>
-                  About Tiny Cash Book is a simple Python app that teaches kids
-                  financial management by tracking allowances and spending with
-                  visual charts.
-                </p>
-                <a
-                  href="https://github.com/mayupaca/tiny-cash-book"
-                  className="flex mt-3 text-custom-gold items-center"
-                >
-                  MORE
-                  <ArrowIcon />
-                </a>
+              <div className="p-5">
+                <div className="flex items-center mb-3">
+                  <div className="bg-[#AF9221] text-white rounded-full flex justify-center items-center w-8 h-8">
+                    <PiggyBankIcon />
+                  </div>
+                  <h2 className="text-gray-900 text-lg font-medium ml-2">
+                    Tiny Cash Book
+                  </h2>
+                </div>
+                <div>
+                  <p>
+                    About Tiny Cash Book is a simple Python app that teaches
+                    kids financial management by tracking allowances and
+                    spending with visual charts.
+                  </p>
+                  <a
+                    href="https://github.com/mayupaca/tiny-cash-book"
+                    className="flex mt-3 text-custom-gold items-center"
+                  >
+                    MORE
+                    <ArrowIcon />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
