@@ -10,9 +10,13 @@ function Project() {
         </h1>
         <div className="flex flex-wrap">
           <div className="md:w-1/3 p-4">
-            <div className="border-4 border-custom-gold rounded-lg p-3">
-              <div className="w-full">
-                <img src="./img/demoVideogif.gif" alt=""/>
+            <div className="border-4 border-custom-gold rounded-lg pt-5">
+              <div className="flex justify-center items-center w-full h-full">
+                <img
+                  src="./img/demoVideogif.gif"
+                  alt=""
+                  className="w-48 h-32 object-cover"
+                />
               </div>
               <div className="p-5">
                 <div className="flex items-center mb-3">
