@@ -30,9 +30,7 @@ function Project() {
                     </h2>
                   </div>
                   <div>
-                    <p>
-                    {project.description}
-                    </p>
+                    <p>{project.description}</p>
                     <a
                       href={project.git_repo}
                       className="flex mt-3 text-custom-gold items-center"
