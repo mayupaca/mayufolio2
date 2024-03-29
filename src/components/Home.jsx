@@ -4,8 +4,8 @@ import { LinkedInIcon, GitHubIcon } from "./Icon";
 function Home() {
   return (
     <section id="home" className="text-gray-700">
-      <div className="container flex mx-auto py-20 px-5 flex-col md:flex-row items-center">
-        <div className="md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left">
+      <div className="container mx-auto py-20 px-5 flex flex-col items-center md:flex-row">
+        <div className="flex flex-col items-center md:items-start md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16">
           <h1 className="text-3xl sm:text-6xl text-gray-900 font-medium mb-4">
             Hello world!
             <br />
@@ -22,20 +22,20 @@ function Home() {
             together.
           </p>
           <div className="text-custom-gold w-24 text-lg font-bold">CONTACT</div>
-          <div className="mt-1">
-            <p className="text-lg">mayusuzumura55@gmail.com</p>
-            <div className="flex text-custom-gold mt-2">
+          <p className="text-lg">mayusuzumura55@gmail.com</p>
+          <div className="mt-1 w-full flex justify-center md:justify-start">
+            <div className="flex justify-center md:justify-start text-custom-gold mt-2">
               <a
                 href="https://www.linkedin.com/in/mayu-suzumura"
                 className="pr-2 hover:opacity-50 duration-300"
               >
-                <LinkedInIcon/>
+                <LinkedInIcon />
               </a>
               <a
                 href="https://github.com/mayupaca"
                 className="hover:opacity-50 duration-300"
               >
-                <GitHubIcon/>
+                <GitHubIcon />
               </a>
             </div>
           </div>
