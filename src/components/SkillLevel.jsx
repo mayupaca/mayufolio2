@@ -4,7 +4,7 @@ function SkillLevel({ level }) {
 
   for (let i = 0; i < totalCircles; i++) {
     circles.push(
-      <span key={i} className={i < level ? "text-[#AF9221] text-3xl ml-4" : "text-gray-400 text-3xl ml-4"}>
+      <span key={i} className={i < level ? "text-[#AF9221] text-3xl ml-2" : "text-gray-400 text-3xl ml-2"}>
         ●
       </span>
     );
