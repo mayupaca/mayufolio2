@@ -12,21 +12,16 @@ function About() {
             ABOUT ME
           </h1>
           <p className="pb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ex?
+            Hello, I'm Mayu Suzumura, navigating my way from full-stack web development to becoming a software automation engineer. 
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            dolore officiis odio unde odit corporis nulla quae impedit deserunt
-            laboriosam provident hic, fugiat veritatis blanditiis quidem sed
-            maiores. Aliquam ullam officiis tenetur debitis accusamus dolore sit
-            inventore saepe alias! Sequi vitae laboriosam, commodi, quibusdam
-            neque eos sunt, voluptates eius recusandae nemo quos architecto sit
-            natus quam! Doloremque repellat quaerat suscipit. Perspiciatis
-            blanditiis fuga veniam culpa fugiat libero est unde voluptatum
-            consequatur! Similique inventore quasi illo facilis fuga eum
-            consectetur fugit, laudantium consequatur aperiam nobis iure sunt ea
-            culpa maiores deserunt a porro minus doloribus! Nemo porro mollitia
-            sapiente adipisci eum.
+            I'm deeply passionate about coding and testing, challenging myself daily to merge technology with creativity. Based in Toronto, Canada, I'm currently honing my skills in Python and software testing, eagerly searching for new opportunities.<br />
+            
+            In my personal life, I find immense joy in spending time with cats, exploring the world, keeping fit at the gym, and savoring delicious meals. I have a particular passion for exploring diverse culinary cultures. These experiences enrich my creativity, providing unique perspectives that inspire fresh ideas in my daily work.<br />
+
+            With a strong foundation in programming, I deeply value adaptability, precision, and a commitment to lifelong learning. My ability to remain calm under pressure and exceptional stress management and resilience make me a reliable team member. Skills in self-directed learning and time management, honed through an intensive web development bootcamp and continuous self-improvement, are cornerstones of my professional life.<br />
+
+            This portfolio showcases my technical journey and growth. I look forward to opportunities where I can apply my technical skills and creativity to co-create the future. I'm excited to find partners to embark on this stimulating journey together.<br />
           </p>
         </div>
       </div>
